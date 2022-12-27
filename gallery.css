@@ -14,7 +14,7 @@ body::before{
     top:0;
     left: 0;
     width: 100%;
-    min-height: 200Vh;
+    min-height: 240Vh;
     /* background: url('bg1.jpg') no-repeat center center/cover; */
     background-color: rgb(1, 1, 29);
     z-index: -1;
