@@ -8,6 +8,7 @@ html{
     font-size: 62.5%;
     /* 1rem=10px */
     overflow-x: hidden;
+    scroll-behavior: smooth;
    
 }
 
@@ -79,8 +80,9 @@ body{
 .front{
   /* margin-top: 360px; */
   /* position: relative; */
-  height: 83vh;
+  height: 80vh;
   text-align: center;
+  position: static;
   
 }
 h1{
