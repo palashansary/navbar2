@@ -37,6 +37,7 @@ h4{
     font-size: 1.1rem;
     color:black;
     font-weight: 500;
+    display: none;
     /* text-shadow: 1px 1px gray; */
 }
 
