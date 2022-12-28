@@ -4,7 +4,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
+}
+body::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url('3.jpg') no-repeat center center/cover;
+    z-index: -1;
+    /* opacity: .9; */
 }
 
 .formContainer{
