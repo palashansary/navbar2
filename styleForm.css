@@ -7,6 +7,7 @@
 body{
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 body::before{
     content:"";
@@ -20,14 +21,26 @@ body::before{
     /* opacity: .9; */
 }
 
-.formContainer{
+/* .formContainer{
     margin-top: 120px;
     border: 4px solid white;
     border-radius: 8px;
     padding: 30px 80px;
     padding-top: 10px;
     
+} */
+
+.formContainer{
+    margin-top: 100px;
+    border: 4px solid rgb(66, 2, 66);
+    border-radius: 2px;
+    padding: 10px 10px;
+    padding-top: 10px;
+    height: 520px;
+    box-shadow: 2px 4px 5px rgb(60, 1, 60);
+    
 }
+
 
 .formContainer h2{
     font-size: 2.5rem;
@@ -51,7 +64,7 @@ body::before{
 
 }
 
-.formContainer input{
+/* .formContainer input{
     font: 1em sans-serif;
     font-weight: 600;
     text-align: left;
@@ -60,7 +73,44 @@ body::before{
     width: 500px;
     border: 2px solid ghostwhite;
     border-radius: 8px;
+} */
+
+/* Newly added */
+.formContainer input{
+    font: 1em sans-serif;
+    font-weight: 600;
+    text-align:center;
+    margin: 15px 10px;
+    padding: 8px 10px;
+    width: 400px;
+    /* border: 2px solid ghostwhite; */
+    border-radius: 2px;
+    border: none;
+    border-bottom: 4px solid white;
+    background: transparent;
+    color: white;
+    outline: none;
+
 }
+
+
+.formContainer input::placeholder{
+    color: white;
+    padding-left: 60px;
+    text-align: left;
+}
+
+.fa-solid{
+    font-size: 1.2rem;
+    color: white;
+    display: inline-block;
+    transform: translateX(50px);
+    /* margin-left:  */
+    
+}
+ 
+
+/* Newly added upperpaet */
 
 .formContainer #btn{
     display: flex;
